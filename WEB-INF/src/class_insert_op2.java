@@ -81,13 +81,14 @@ public class class_insert_op2 extends HttpServlet{
                                         }else{
                                              query = new StringBuffer();
                                              gakuseki_no = gakuseki_no+1;
+                                             String gakuseki = String.format("%05d", gakuseki_no);
                query.append(                 "insert into class_table(class_no,syusseki_no,gakuseki_no,simei_1,simei_2,kana_1,kana_2,umare)");
                query.append(                 "values('");
                query.append(                 class_no);
                query.append(                 "','");
                query.append(                 "0");
                query.append(                 "','");
-               query.append(                 gakuseki_no);
+               query.append(                 gakuseki);
                query.append(                 "','");
                query.append(                 simei_1);
                query.append(                 "','");
