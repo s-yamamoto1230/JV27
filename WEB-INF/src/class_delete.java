@@ -129,8 +129,8 @@ public class class_delete extends HttpServlet{
           sb.append("         <input type='submit' value='削除'>");
           sb.append("         </form>");
           sb.append("    </center><br><br>");
-          sb.append("    <hr><a href='./class_delete.html'>選択に戻る</a>");
-          sb.append("    <hr><a href='./class_index.html'>ホームに戻る</a>");
+          sb.append("    <hr><a href='../class_delete.html'>選択に戻る</a>");
+          sb.append("    <hr><a href='../class_index.html'>ホームに戻る</a>");
           sb.append("</body></html>");
           out.println(sb.toString());
 
